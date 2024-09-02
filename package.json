@@ -1,0 +1,19 @@
+{
+  "name": "devjobs",
+  "version": "1.0.0",
+  "description": "Portal DevJobs con NodeJS, Handlebars, MongoDB",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "server": "nodemon ./index"
+  },
+  "author": "Israel Toledo",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.19.2",
+    "express-handlebars": "^8.0.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.4"
+  }
+}
